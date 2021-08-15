@@ -47,11 +47,9 @@ body {
   background-color: #1f3177;
 }
 /* #endregion */
-.diceroller > .title {
-  font-size: 32px;
-  color: #1f3177;
-  margin: 0px;
-}
+
+/* my code ===========================*/
+
 .diceroller > div {
   padding: 3px;
   margin: 5px;
@@ -73,7 +71,7 @@ body {
 }
 
 .diceroller button {
-  background-color: #1f3177;
+  background-color: #000000;
   border: none;
   color: white;
   padding: 10px 22px;
