@@ -47,3 +47,37 @@ body {
   background-color: #1f3177;
 }
 /* #endregion */
+.diceroller > .title {
+  font-size: 32px;
+  color: #1f3177;
+  margin: 0px;
+}
+.diceroller > div {
+  padding: 3px;
+  margin: 5px;
+}
+
+.diceroller > #players {
+  display: flex;
+}
+.diceroller > #players > div {
+  padding-right: 20px;
+}
+
+.diceroller .die {
+  width: 50px;
+  height: 50px;
+  margin: 2px;
+  color: white;
+  display: inline-block;
+}
+
+.diceroller button {
+  background-color: #1f3177;
+  border: none;
+  color: white;
+  padding: 10px 22px;
+  text-align: center;
+  font-family: 'Rubik', sans-serif;
+  display: inline-block;
+}
